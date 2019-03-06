@@ -15,29 +15,29 @@
 
 
              <fieldset>
-               <label for="Date of entry">Date of entry</label>
+               <label for="Date of entry">Date of entry</label><br>
                <input type="date" name="JournalDate" id="JournalDate"></input>
              </fieldset>
 
 
              
              <fieldset>
-               <label for="Concepts covered">Concepts covered</label>
-               <input type="Concepts covered" name="Concepts covered" id="covered">
+               <label  class="covered2 "for="Concepts covered">Concepts covered</label><br>
+               <input class="covered"type="Concepts covered" name="Concepts covered" id="covered">
              </fieldset>
 
 
              
              <fieldset> 
-                <label for="Journal entry">Journal entry</label>
-                <textarea name="Journal entry" id="" cols="30" rows="4"></textarea>
+                <label class="journal-entry2" for="Journal entry">Journal entry</label><br>
+                <textarea class="journal-entry"name="Journal entry" id="" cols="30" rows="4"></textarea>
              </fieldset>
     
     
              
                <fieldset>
-                    <label for="Mood for the day">Mood for the day</label>
-                   <select name="Journal Entry" id="Mood for the day">>
+                    <label class="Mood" for="Mood for the day">Mood for the day</label><br>
+                   <select class="Mood"name="Journal Entry" id="Mood for the day">>
                       <option value="Mood for the day">Okay</option>
                       <option value="Mood for the day">Sad</option>
                       <option value="Mood for the day">Happy</option>
@@ -50,6 +50,8 @@
                     <button id="Record"> Record Journal Entry</button>
                </fieldset>
             </form>
+            <article class="entryLog"></article>
+            <script src="src/scripts/journals.js"></script>
          </body>
       </html>
                 
